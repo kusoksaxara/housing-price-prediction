@@ -1,27 +1,27 @@
-# housing-price-prediction
+# 🏠 housing-price-prediction
 
 ## Project Description
 This project predicts housing prices based on features like square footage, number of bedrooms, bathrooms, and location. It is part of a data stewardship exercise making the experiment FAIR.
 
-# Project Structure  
+## Project Structure  
 
-## Data  
+### Data  
 - **House_Sales_King_County.csv** – Raw housing data (2014-2015)   
 
-## Models  
+### Models  
 - **gb_best_model.pkl** – Best Gradient Boosting model  
 - **rf_best_model.pkl** – Best Random Forest model  
 - **xgb_best_model.pkl** – Best XGBoost model  
 
-## Notebooks  
+### Notebooks  
 - **Get_Data.ipynb** – Script to fetch data from DBRepo  
 - **Modeling_Notebook.ipynb** – Full pipeline (EDA, modeling, evaluation)   
 
-## Outputs  
+### Outputs  
 - **evaluation_metrics.txt** – Test-set metrics (MAE, R², etc.)  
 - **learning_rates_vs_r2.png** – XGBoost learning rate vs. performance plot  
 
-## Configuration  
+### Configuration  
 - **requirements.txt** – Python dependencies  
 - **LICENSE** – CC BY 4.0 License   
 - **codemeta.json** – Metadata (authors, dependencies, dataset PIDs) 
