@@ -1,0 +1,28 @@
+
+Price Prediction - Evaluation Metrics
+====================================
+Database ID: 10d684c8-125b-46ed-9fc3-70bb8c91339e
+Train Subset ID: 7b0f5d2e-1a66-4698-83e6-68c1b937af1a
+Test Subset ID: 145e70a6-b27e-48c3-a4ed-b4ff8c0dceef
+Validation Subset ID: e15c702c-31dc-4815-b5f0-dacaf0077ae0
+====================================
+Number of training samples: 3220
+Number of test samples: 690
+Number of validation samples: 690
+====================================
+Selected Model: GradientBoostingRegressor
+------------------------------------
+Train Evaluation:
+- MAE: 134,516
+- MSE: 35,863,759,455
+- R²: 0.742
+
+Validation Evaluation:
+- MAE: 155,993
+- MSE: 49,523,915,368
+- R²: 0.620
+
+Test Evaluation:
+- MAE: 271,927
+- MSE: 1,361,892,203,131
+- R²: -0.016
