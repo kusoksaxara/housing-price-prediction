@@ -27,7 +27,7 @@ The notebook loads data subsets from DBRepo using their API, trains a model, and
 3. Run the notebook
 
 ## License
-This project is licensed under the MIT License.
+- Model, Code, and Scalers: CC BY 4.0
 
 ## Author
 - Aleksandra Grishan
